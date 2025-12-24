@@ -1,0 +1,55 @@
+{
+  "name": "wise-extractor",
+  "version": "1.0.0",
+  "description": "Transform PDFs into RAG-ready knowledge assets. Intelligently extract, categorize, and enrich images with AI-powered metadata for Retrieval-Augmented Generation pipelines.",
+  "author": "Magdy Saber <contact@magdysaber.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/iammagdy/wise-extractor#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iammagdy/wise-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iammagdy/wise-extractor/issues"
+  },
+  "keywords": [
+    "pdf",
+    "image-extraction",
+    "rag",
+    "retrieval-augmented-generation",
+    "ai",
+    "gemini",
+    "vector-database",
+    "knowledge-base",
+    "document-processing",
+    "react",
+    "vite",
+    "tailwindcss"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.182.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "tailwindcss": "^4.1.18",
+    "vite": "^7.2.4"
+  }
+}
