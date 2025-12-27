@@ -11,8 +11,6 @@ import {
     Color
 } from 'three';
 
-import './PixelSnow.css';
-
 const vertexShader = `
 void main() {
   gl_Position = vec4(position, 1.0);
@@ -350,5 +348,5 @@ export default function PixelSnow({
         colorVector
     ]);
 
-    return <div ref={containerRef} className={`pixel-snow-container ${className}`} style={style} />;
+    return <div ref={containerRef} className={`w-full h-full absolute inset-0 pointer-events-none ${className}`} style={style} />;
 }
